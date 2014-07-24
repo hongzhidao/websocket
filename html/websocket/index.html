@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Websocket</title>
+<link rel="shortcut icon" href="http://www.google.com/favicon.ico" />
+<link href="/style/reset.css" rel="stylesheet" type="text/css" />
+<link href="/style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
+</head>
+
+<body>
+
+<div id='wrap'>
+
+<div id='main' class='clearfix'>
+
+	<div class='in'>
+		<h4>Location:</h4>
+		<input id='location' type='text' value='' />
+		<button id='connect'>Connect</button>
+		<button id='disconnect' disabled='disabled'>Disconnect</button>
+
+		<h4 class='b'>Message:</h4>
+		<input id='message' type='text' value='Rock it with HTML5 WebSocket' disabled='disabled' />
+		<button id='send' disabled='disabled'>Send</button>
+	</div>
+
+	<div class='out'>
+		<h4>Log:</h4>
+		<ul id='log'></ul>
+		<button id='clear'>Clear Log</button>
+	</div>
+
+</div>
+	
+</div>
+
+</body>
+</html>

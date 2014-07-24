@@ -1,0 +1,14 @@
+/* 
+	Eric Meyer CSS Reset
+	http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
+	Sorry for compressing.
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}:focus{outline:0}body{line-height:1}table{border-collapse:separate;border-spacing:0}caption,th,td{font-weight:normal}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:""""}
+body { font:62.5% Helvetica,Arial,sans-serif; line-height:1.4em; }
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; } 
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; } * html .clearfix { height: 1%; }
+.left {float:left} .right{float:right} .clear{clear:both} .sph { margin-bottom: 10px; } .spv { margin-right: 10px; }
+a { text-decoration: none; } a:hover { text-decoration: underline; } ol, ul { list-style: none; } em { list-style: normal; }
+em { font-style: normal; } 
+

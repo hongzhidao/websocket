@@ -1,0 +1,11 @@
+#wrap { font-family:"Microsoft YaHei"; font-size: 1.3em; width: 700px; margin: 0 auto;}
+#main { margin-top: 100px; width: 100%; padding: 10px 0; }
+.in { float: left; width: 300px; }
+.out { float: left; width: 300px; padding-left: 20px; border-left: 1px solid #ccc; }
+button { cursor: pointer; }
+input { margin: 5px 0; width: 280px; }
+h4.b { margin-top: 15px; }
+#log { height: 200px; border: 1px solid #ddd; margin: 5px 0; width: 320px; overflow: scroll; }
+#log li { line-height: 18px; }
+#log li.y { color: green; }
+#log li.x { color: red; }
