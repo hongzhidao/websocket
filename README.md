@@ -1,6 +1,8 @@
 websocket
 =========
 
+It is a nginx module that implement websocket protocol
+
 1. install
 > {nginx_dir}/configure --add-module={module_dir}/ngx_http_websocket_module && make && make install
 
