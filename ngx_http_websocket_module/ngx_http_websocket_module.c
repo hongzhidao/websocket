@@ -139,7 +139,7 @@ static char *ngx_http_websocket(ngx_conf_t *cf, ngx_command_t *cmd,
 
 static ngx_command_t  ngx_http_websocket_commands[] = {
 
-	{ ngx_string("websocket"),
+    { ngx_string("websocket"),
       NGX_HTTP_LOC_CONF|NGX_CONF_NOARGS,
       ngx_http_websocket,
       NGX_HTTP_LOC_CONF_OFFSET,
