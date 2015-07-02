@@ -828,6 +828,8 @@ ngx_http_websocket_cleanup_request(void *data)
 
     group = subscriber->group;
     request = subscriber->request;
+
+    ngx_queue_remove(&subscriber->queue);
 }
 
 
